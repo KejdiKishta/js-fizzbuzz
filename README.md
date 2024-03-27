@@ -13,8 +13,8 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 
 # LOGICA
-- [ ] creare programma che stampa i numeri da 1 a 100 in console con ciclo for
-- [ ] se il numero è multiplo di 3 stampiamo fizz
-- [ ] se il numero è multiplo di 5 stampiamo buzz
-- [ ] se il numero è multiplo di 3 e di 5 stampiamo fizzbuzz
+- [x] creare programma che stampa i numeri da 1 a 100 in console con ciclo for
+- [x] se il numero è multiplo di 3 stampiamo fizz
+- [x] se il numero è multiplo di 5 stampiamo buzz
+- [x] se il numero è multiplo di 3 e di 5 stampiamo fizzbuzz
 

@@ -2,7 +2,7 @@
 const containerElem = document.querySelector(".container"); //object | null
 
 //* funzione for
-for (let i = 0; i <100; i++) {
+for (let i = 1; i <101; i++) {
 
     //? creazione elemento
     const boxElem = document.createElement("div"); // object
