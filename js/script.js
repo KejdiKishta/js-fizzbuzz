@@ -10,13 +10,28 @@ for (let i = 0; i <100; i++) {
     boxElem.classList.add("box");
     console.log(boxElem);
 
+    //? condizione colori
     if (i % 3 === 0) {
-        boxElem.classList.add("color1")
     } else if ((i+1) % 3 === 0) {
-        boxElem.classList.add("color2")
     } else {
-        boxElem.classList.add("color3")
     }
+
+    if (i % 3 === 0 && i % 5 === 0) {
+        boxElem.innerHTML = "FizzBuzz"
+        boxElem.classList.add("fizzbuzz")
+        boxElem.classList.add("color3")
+    } else if (i % 5 === 0) {
+        boxElem.innerHTML = "Buzz"
+        boxElem.classList.add("fizzbuzz")
+        boxElem.classList.add("color2")
+    } else if  (i % 3 === 0){
+        boxElem.innerHTML = "Fizz"
+        boxElem.classList.add("fizzbuzz")
+        boxElem.classList.add("color1")
+    } else {
+        boxElem.classList.add("color4")
+    }
+
 
     containerElem.append(boxElem)
 }
