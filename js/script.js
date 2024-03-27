@@ -17,15 +17,15 @@ for (let i = 0; i <100; i++) {
     }
 
     if (i % 3 === 0 && i % 5 === 0) {
-        boxElem.innerHTML = "FizzBuzz"
+        boxElem.innerHTML = `<img src="./Screenshot 2024-03-27 170956.png" alt="">`
         boxElem.classList.add("fizzbuzz")
         boxElem.classList.add("color3")
     } else if (i % 5 === 0) {
-        boxElem.innerHTML = "Buzz"
+        boxElem.innerHTML = `<img src="./Immagine 2024-03-27 170823.png" alt="">`
         boxElem.classList.add("fizzbuzz")
         boxElem.classList.add("color2")
     } else if  (i % 3 === 0){
-        boxElem.innerHTML = "Fizz"
+        boxElem.innerHTML = `<img src="./Screenshot 2024-03-27 170905.png" alt="">`
         boxElem.classList.add("fizzbuzz")
         boxElem.classList.add("color1")
     } else {
